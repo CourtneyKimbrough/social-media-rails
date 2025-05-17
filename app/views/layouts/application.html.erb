@@ -21,7 +21,8 @@
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
   </head>
 
-  <body>
+  <body class="bg-gray-900">
+    <%= render "layouts/navbar" %>
     <%= render "layouts/alerts" %>
     <%= yield %>
   </body>
