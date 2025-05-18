@@ -1,5 +1,5 @@
 class FeedController < ApplicationController
   def show
-    @posts = Post.all
+    @posts = Post.all.sample
   end
 end
