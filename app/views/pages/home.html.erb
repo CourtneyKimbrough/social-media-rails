@@ -5,12 +5,12 @@
       <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
   </svg>
 
-    <h1 class="text-7xl text-indigo-50 font-[sphinx]">Secret Social</h1>
+    <h1 class="text-2xl md:text-5xl lg:text-7xl text-indigo-50 font-[sphinx]">Secret Social</h1>
   </div>
 
-  <div class="grid grid-cols-2 mt-8">
-    <%= image_tag("secret.jpg", class: " h-[50vh] w-full object-cover rounded-r-full") %>
-    <div class="w-full flex flex-col items-center justify-center">
+  <div class="grid md:grid-cols-2 mt-8">
+    <%= image_tag("secret.jpg", class: " h-[50vh] w-full object-cover rounded-r-full mb-10") %>
+    <div class="w-full flex flex-col items-center justify-center mb-10">
       <div class="max-w-lg w-full rounded-lg h-96 bg-gray-100 flex items-center justify-center gap-4">
         <%= link_to "Sign in", new_user_session_path, class: "px-3 py-2 rounded-lg bg-blue-500 text-blue-50" %>
         <%= link_to "Sign up", new_user_registration_path, class: "px-3 py-2 rounded-lg bg-gray-900 text-blue-50" %>
